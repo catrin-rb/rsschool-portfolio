@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap" rel="stylesheet"> 
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#"><span>en</span></a> / <a href="#">ru</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="hero">
+                <h1>Alexa Rise</h1>
+                <p>Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+                <button class="active">Hire me</button>
+            </section>
+            <section id="skills">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skills-child">
+                        <img src="./assets/svg/camera.svg" alt="camera">
+                        <h4 class="skills-title">Digital photography</h4>
+                        <div class="skills-descript">High-quality photos in the studio and on the nature</div>
+                    </div>
+                    <div class="skills-child">
+                        <img src="./assets/svg/video.svg" alt="video">
+                        <h4 class="skills-title">Video shooting</h4>
+                        <div class="skills-descript">Capture your moments so that they always stay with you</div>
+                    </div>
+                    <div class="skills-child">
+                        <img src="./assets/svg/image.svg" alt="image">
+                        <h4 class="skills-title">Retouch</h4>
+                        <div class="skills-descript">I strive to make photography surpass reality</div>
+                    </div>
+                    <div class="skills-child">
+                        <img src="./assets/svg/mic.svg" alt="mic">
+                        <h4 class="skills-title">Audio</h4>
+                        <div class="skills-descript">Professional sounds recording for video, advertising, portfolio</div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="button-block">
+                    <button class="passive">Winter</button>
+                    <button class="passive">Spring</button>
+                    <button class="passive">Summer</button>
+                    <button class="active">Autumn</button>        
+                </div>
+                <div class="photo-container">
+                    <img src="./assets/img/portfolio-img.jpg" alt="portfolio-img">
+                    <img src="./assets/img/portfolio-img-2.jpg" alt="portfolio-img-2">
+                    <img src="./assets/img/portfolio-img-3.jpg" alt="portfolio-img-3">
+                    <img src="./assets/img/portfolio-img-4.jpg" alt="portfolio-img-4">
+                    <img src="./assets/img/portfolio-img-5.jpg" alt="portfolio-img-5">
+                    <img src="./assets/img/portfolio-img-6.jpg" alt="portfolio-img-6">
+                </div>
+            </section>
+            <section id="video">
+                <div class="section-title">
+                    <h2>Video</h2>
+                </div>
+                <div class="video-player">
+                    <button class="video-button"></button>
+                </div>
+            </section>
+            <section id="price">
+                <div class="section-title">
+                    <h2>Price</h2>
+                </div>
+                <div class="price-container">
+                    <div class="price-item">
+                        <h3>Standard</h3>
+                        <div class="price">500 $</div>
+                        <div class="price-descript">
+                            <span>One location</span>
+                            <span>120 photos in color</span>
+                            <span>12 photos in retouch</span>
+                            <span>Readiness 2-3 weeks</span>
+                            <span>Make up, visage</span>
+                        </div>
+                        <button class="active in-price">Order shooting</button>
+                    </div>
+                    <div class="price-item">
+                        <h3>Premium</h3>
+                        <div class="price">700 $</div>
+                        <div class="price-descript">
+                            <span>One or two locations</span>
+                            <span>200 photos in color</span>
+                            <span>20 photos in retouch</span>
+                            <span>Readiness 1-2 weeks</span>
+                            <span>Make up, visage</span>
+                        </div>
+                        <button class="active in-price">Order shooting</button>
+                    </div>
+                    <div class="price-item">
+                        <h3>Gold</h3>
+                        <div class="price">1000 $</div>
+                        <div class="price-descript">
+                            <span>Three locations or more</span>
+                            <span>300 photos in color</span>
+                            <span>50 photos in retouch</span>
+                            <span>Readiness 1 week</span>
+                            <span>Make up, visage, hairstyle</span>
+                        </div>
+                        <button class="active in-price">Order shooting</button>
+                    </div>
+                </div>
+            </section>
+            <section id="contacts">
+                <h2>Contact me</h2>
+                <form action="#">
+                    <input type="email" placeholder="E-mail">
+                    <input type="tel" placeholder="Phone">
+                    <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="active in-form">Send message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="copywrite">
+                <p>©</p>
+                <p>2022</p>
+                <p><a href="https://github.com/catrin-rb" target="_blank">github</a></p>
+            </div>
+            <p><a href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a></p>
+            <ul class="icons">
+                <li><img src="./assets/svg/inst.svg" alt="inst"></li>
+                <li><img src="./assets/svg/fb.svg" alt="fb"></li>
+                <li><img src="./assets/svg/tw.svg" alt="tw"></li>
+                <li><img src="./assets/svg/pinterest.svg" alt="pinterest"></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
